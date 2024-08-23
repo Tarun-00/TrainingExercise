@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px 0;
+}
+
+#machine-name {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#list-container {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
